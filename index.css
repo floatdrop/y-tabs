@@ -10,20 +10,17 @@
 
 .y-tabs__item {
   float: left;
-  margin-right: 20px;
-}
-
-.y-tabs__item_theme_normal {
-    text-align: center;
-    vertical-align: middle;
+  margin: 10px 20px;
 }
 
 .y-tabs__item a {
   display: inline-block;
-  color: #A9A9A9;
+  text-decoration: none;
+  color: #3498DB;
 }
 
 .y-tabs__item:not(.y-tabs__item_active) a:hover,
 .y-tabs__item_active a {
-  color: #3498DB;
+  color: #000;
+  border-bottom: 2px solid #fc0;
 }

@@ -32,7 +32,7 @@ var YTabs = {
 	_items: function () {
 		var self = this;
 
-		var $menuItems = this.props.children.map(function ($panel, index) {
+		var tabItems = this.props.children.map(function ($panel, index) {
 			var classes = b('item', {
 				theme: self.props.theme || 'normal',
 				active: self.state.tabActive === (index + 1)
@@ -49,7 +49,7 @@ var YTabs = {
 
 		return (
 			<nav className={b('navigation')}>
-				<ul className={b('list')}>{$menuItems}</ul>
+				<ul className={b('list')}>{tabItems}</ul>
 			</nav>
 		);
 	}
