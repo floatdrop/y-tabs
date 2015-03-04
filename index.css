@@ -22,5 +22,5 @@
 .y-tabs__item:not(.y-tabs__item_active) a:hover,
 .y-tabs__item_active a {
   color: #000;
-  border-bottom: 2px solid #fc0;
+  border-bottom: 4px solid #fc0;
 }

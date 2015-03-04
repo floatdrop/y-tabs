@@ -5,7 +5,7 @@ var Style = require('./index.css!');
 
 var YTabs = {
 	getDefaultProps: function () {
-		return { tabActive: 1 };
+		return { tabActive: 0 };
 	},
 
 	getInitialState: function () {
@@ -24,23 +24,23 @@ var YTabs = {
 
 		return (
 			<div className={classes}>
-				{this._items()}
+				{this.getItems()}
 			</div>
 		);
 	},
 
-	_items: function () {
+	getItems: function () {
 		var self = this;
 
 		var tabItems = this.props.children.map(function ($panel, index) {
 			var classes = b('item', {
 				theme: self.props.theme || 'normal',
-				active: self.state.tabActive === (index + 1)
+				active: self.state.tabActive === index
 			});
 
 			return (
 				<li key={index} className={classes}>
-					<a href='#' onClick={self.setActive.bind(self, index + 1)}>
+					<a href='#' onClick={self.setActive.bind(self, index)}>
 						{$panel}
 					</a>
 				</li>
