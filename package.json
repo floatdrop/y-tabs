@@ -19,8 +19,13 @@
   "bugs": {
     "url": "https://github.com/y-components/y-tabs/issues"
   },
+  "files": [
+    "index.jsx",
+    "index.css"
+  ],
   "homepage": "https://github.com/y-components/y-tabs",
   "jspm": {
+    "registry": "jspm",
     "main": "index.jsx!",
     "directories": {
       "lib": ".",
