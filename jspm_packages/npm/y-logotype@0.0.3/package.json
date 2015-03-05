@@ -1,0 +1,38 @@
+{
+  "name": "y-logotype",
+  "version": "0.0.3",
+  "description": "Yandex Logotype",
+  "main": "index.jsx",
+  "scripts": {
+    "serve": "./node_modules/.bin/http-server -p 8080 -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.yandex-team.net/floatdrop/y-logotype.git"
+  },
+  "keywords": [
+    "react-component"
+  ],
+  "author": "Vsevolod Strukchinsky <floatdrop@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.yandex-team.net/floatdrop/y-logotype/issues"
+  },
+  "homepage": "https://github.yandex-team.net/floatdrop/y-logotype",
+  "jspm": {
+    "registry": "jspm",
+    "directories": {
+      "lib": ".",
+      "packages": "jspm_packages"
+    },
+    "dependencies": {
+      "b_": "npm:b_@^1.3.0",
+      "jsx": "github:floatdrop/plugin-jsx@^0.1.1",
+      "react": "npm:react@^0.12.2",
+      "text": "github:systemjs/plugin-text@^0.0.2"
+    }
+  },
+  "devDependencies": {
+    "http-server": "^0.7.5"
+  }
+}

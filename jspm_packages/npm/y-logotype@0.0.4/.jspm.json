@@ -1,0 +1,78 @@
+{
+  "name": "y-logotype",
+  "version": "0.0.4",
+  "description": "Yandex Logotype",
+  "scripts": {
+    "serve": "http-server -p 8080 -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.yandex-team.net/floatdrop/y-logotype.git"
+  },
+  "keywords": [
+    "react-component"
+  ],
+  "author": {
+    "name": "Vsevolod Strukchinsky",
+    "email": "floatdrop@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.yandex-team.net/floatdrop/y-logotype/issues"
+  },
+  "homepage": "https://github.yandex-team.net/floatdrop/y-logotype",
+  "jspm": {
+    "registry": "jspm",
+    "directories": {
+      "lib": ".",
+      "packages": "jspm_packages"
+    },
+    "main": "index.jsx!",
+    "dependencies": {
+      "b_": "npm:b_@^1.3.0",
+      "jsx": "github:floatdrop/plugin-jsx@^0.1.1",
+      "react": "npm:react@^0.12.2",
+      "text": "github:systemjs/plugin-text@^0.0.2",
+      "process": "github:jspm/nodelibs-process@^0.1.0"
+    }
+  },
+  "devDependencies": {
+    "http-server": "^0.7.5"
+  },
+  "gitHead": "4bcadb673341c1ac10c75982d7d37c628938d047",
+  "_id": "y-logotype@0.0.4",
+  "_shasum": "7502deae2453fcd393297444eb6e7c214b17e043",
+  "_from": ".",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "floatdrop",
+    "email": "floatdrop@yandex-team.ru"
+  },
+  "maintainers": [
+    {
+      "name": "floatdrop",
+      "email": "floatdrop@yandex-team.ru"
+    }
+  ],
+  "dist": {
+    "shasum": "7502deae2453fcd393297444eb6e7c214b17e043",
+    "tarball": "http://public.npm.yandex-team.ru:5984/y-logotype/-/y-logotype-0.0.4.tgz"
+  },
+  "directories": {
+    "lib": ".",
+    "packages": "jspm_packages"
+  },
+  "registry": "jspm",
+  "main": "index.jsx!",
+  "format": "cjs",
+  "ignore": [
+    "node_modules"
+  ],
+  "dependencies": {
+    "b_": "npm:b_@^1.3.0",
+    "jsx": "github:floatdrop/plugin-jsx@^0.1.1",
+    "react": "npm:react@^0.12.2",
+    "text": "github:systemjs/plugin-text@^0.0.2",
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  }
+}

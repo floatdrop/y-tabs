@@ -1,0 +1,1 @@
+module.exports = require("npm:y-logotype@0.0.4/index.jsx!");
