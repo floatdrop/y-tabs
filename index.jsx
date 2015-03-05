@@ -4,6 +4,8 @@ var b = require('b_').with('y-tabs');;
 var Style = require('./index.css!');
 
 var YTabs = {
+	displayName: 'y-tabs',
+
 	getDefaultProps: function () {
 		return { tabActive: 0 };
 	},
